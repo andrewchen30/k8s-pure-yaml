@@ -1,0 +1,10 @@
+project: default
+source:
+  repoURL: 'https://github.com/andrewchen30/k8s-pure-yaml'
+  path: controllers
+  targetRevision: main
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: default
+syncPolicy:
+  automated: {}

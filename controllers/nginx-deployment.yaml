@@ -4,6 +4,7 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
+    author: andrew
 spec:
   replicas: 3
   selector:
